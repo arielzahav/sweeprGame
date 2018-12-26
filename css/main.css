@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+    text-align: center;
+}
+
+.table1 {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.table3 {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.black {
+    background-color: gray
+}
+.white {
+    background-color:rgb(236, 245, 245);
+}
+
+.cell {
+    outline: 5px solid rgb(48, 39, 39);
+    background-color: gray;
+    color:red
+    
+}
+
+
+.mark {
+    background-color: rgb(247, 242, 242)
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.gameBoard td {
+    width: 40px;
+    height:40px;
+    text-align: center;
+}

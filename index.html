@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>Sweeper Game</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="initGame()">
+    <table border="1" class="table1">
+        <tr>
+            <th>
+                <p id="minesOnBoard">Mines</p>
+            </th>
+            <th>
+                <p id="smilyState" onclick="initGame()">smily</p>
+            </th>
+            <th>
+                <p id="timer">Timer</p>
+            </th>
+        </tr>
+    </table>
+
+    <table class="center">
+        <tbody class="gameBoard"></tbody>
+    </table>
+
+    <table border="1" class="table3">
+        <tr> 
+            <th>
+                <select id="level" onchange="changeLevel(this)">
+                    <option value="0" selected="selected">level1</option>
+                    <option value="1" >level2</option>
+                    <option value="2">level3</option>
+                </select>
+            </th>
+            <th>
+                <p id="bestScore">bestTime</p>
+            </th>
+        </tr>
+    </table>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+
+</html>
