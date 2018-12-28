@@ -1,5 +1,6 @@
 //sweepr Game
-//My first Project with JS vanila!
+//My first Project with JS vanila!!
+
 
 'use strict'
 
