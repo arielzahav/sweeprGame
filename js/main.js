@@ -1,4 +1,6 @@
 //sweepr Game
+//My first Project with JS vanila!
+
 'use strict'
 
 // Matrix contains  cell objects: 
